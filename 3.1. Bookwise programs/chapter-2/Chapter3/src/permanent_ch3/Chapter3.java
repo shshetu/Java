@@ -3,16 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package page45;
+package permanent_ch3;
 
 /**
  *
  * @author User
  */
-static final double PI = 3.14159;
-double salary = 500.25;
-static finalrstring "Capital_of_bd" = "Dhaka";
-public class JavaApplication3 {
+public class Chapter3 {
 
     /**
      * @param args the command line arguments

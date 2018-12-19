@@ -3,22 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package page45;
+package prog.pkg2_14;
 
 /**
  *
  * @author User
  */
-static final double PI = 3.14159;
-double salary = 500.25;
-static finalrstring "Capital_of_bd" = "Dhaka";
-public class JavaApplication3 {
+public class Prog2_14 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+ System.out.println(2*(5/2+ 5/2));
+ System.out.println(2*5/2 + 2*5/2);
+ System.out.println(2*(5/2));
     }
     
 }
