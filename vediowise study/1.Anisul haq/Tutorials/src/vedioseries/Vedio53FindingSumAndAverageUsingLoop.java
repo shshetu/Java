@@ -14,14 +14,15 @@ public class Vedio53FindingSumAndAverageUsingLoop {
         Scanner input = new Scanner(System.in);
    double[] number = new double[5];
         System.out.println("Enter 5 numbers:");
-       int i = 0;
-       int sum = 0; 
-       while(i <= number.length){
+       int i = 0, sum = 0;
+       while(i <5){
     number[i] = input.nextDouble();
     
     sum += number[i];
     i++;
     }
-        System.out.println("sum of " + number.length + "numbers: " + sum);
+       double avg = sum / number.length;
+        System.out.println("sum of " + number.length + " numbers: " + sum);
+        System.out.println("Average = " + avg);
     }
 }
