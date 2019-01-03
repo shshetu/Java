@@ -9,11 +9,13 @@ package Date_03_01_Chap7;
  *
  * @author User
  */
-public class ArrayDeclaration {
+public class CopyingArrays {
     public static void main(String[] args) {
-        int[] Ar = new int[100];
-        for(int i: Ar){
-            System.out.println(" "+i);
+        int[] sourceArray = {250,34,4,5};
+        int[] targetArray = new int[sourceArray.length] ;
+        for (int i = 0; i < sourceArray.length; i++) {
+            targetArray[i] = sourceArray[i];
+            System.out.println("Target Array: "+ targetArray[i]);
         }
     }
 }
