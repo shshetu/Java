@@ -14,22 +14,24 @@ public class Page324_TestSimpleCircle {
     /**
      * @param args the command line arguments
      */
+    //Main method
     public static void main(String[] args) {
+        //Create a circle with radius 1
+        SimpleCircle circle1 = new SimpleCircle();
+        System.out.println("The area of the circle of radius "+
+                circle1.radius+ " is "+ circle1.getArea());
         
-    }
-    //Define the circle with two constructors
-    class SimpleCircle{
-    double radius;
-    
+        
+    }  
+}
+//Define the circle class with two constructors
+class SimpleCircle{
+double radius;
+
 //Construct a circle with radius 1
-    SimpleCircle(){radius = 1;}
-    
-    //Construct a circle with a specified radius
-    SimpleCircle(double newRadius){radius = newRadius;}
-    
-    //Return the area of this circle
-    double getArea(){return radius*radius*Math.PI};
-    
-    }
-    
+SimpleCircle(){radius = 1;}
+
+//Construct a circle with a specified radius
+SimpleCircle(double newRadius){radius = newRadius;}
+
 }
