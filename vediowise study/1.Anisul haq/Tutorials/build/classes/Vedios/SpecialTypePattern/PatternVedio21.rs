@@ -1,0 +1,1 @@
+SpecialTypePattern.PatternVedio21

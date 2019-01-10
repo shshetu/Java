@@ -1,0 +1,1 @@
+patternFromC.CV3PrintPattern3

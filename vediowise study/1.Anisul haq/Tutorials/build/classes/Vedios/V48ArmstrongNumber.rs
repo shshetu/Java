@@ -1,0 +1,1 @@
+vedioseries.V48ArmstrongNumber
