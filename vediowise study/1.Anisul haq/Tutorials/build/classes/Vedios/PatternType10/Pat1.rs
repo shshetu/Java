@@ -1,0 +1,1 @@
+PatternType10.Pat1

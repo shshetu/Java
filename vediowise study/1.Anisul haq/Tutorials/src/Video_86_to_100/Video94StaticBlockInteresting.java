@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Vedio_75to85;
+package Video_86_to_100;
 
 /**
  *
  * @author shshe
  */
-public class Vedio85Constructor {
-    public static void main(String[] args) {
-        //Using constructor
-        Vedio85ConstructorTest teacher1 = new Vedio85ConstructorTest("Shetu","Female",1234);
-       
-        teacher1.displayInfo();
-    }
+public class Video94StaticBlockInteresting {
 
+    static {
+        System.out.println("I am Static Block!");
+    }
+    public static void main(String[] args) {
+        System.out.println("I am main method!");
+    }
 }

@@ -10,12 +10,12 @@ package Vedio_75to85;
  * @author shshe
  */
 //Class defines state and behaviour
-public class Vedio85ConstructorTest {
+public class Vedio84ConstructorTest {
     String name,gender;
     int phone;
     
    //Creating a constructor
-    Vedio85ConstructorTest(String n, String g, int ph){
+    Vedio84ConstructorTest(String n, String g, int ph){
     name = n;
     gender = g;
     phone = ph;
