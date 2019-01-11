@@ -21,7 +21,7 @@ public class Video96ProblemSolvingBoxVolume {
     depth = d;
     }
     
-    void display(){
+    void displayVol(){
     
     double result = height*width*depth;
         System.out.println("Volume: "+ result);
