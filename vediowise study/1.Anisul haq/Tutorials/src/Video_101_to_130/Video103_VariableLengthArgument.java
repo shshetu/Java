@@ -9,7 +9,7 @@ package Video_101_to_130;
  *
  * @author shshe
  */
-public class Video102_VariableLengthArgument {
+public class Video103_VariableLengthArgument {
     
     ///Creating a void method
     /*void add(int num1, int num2){
@@ -22,13 +22,18 @@ public class Video102_VariableLengthArgument {
         System.out.println("Addition: "+(num1+num2+num3));
         
         ///Creating Variable length arguments
-        void add(int ... num){
-         int sum = 0;
-         for(int x: num){}
-         System.out.println("Variable Length Argument: "+ (num1+num2));     
-     }
+       
         
      }
+     
+     void add(int ... num){
+     int sum = 0;
+     for(int x:num){
+     sum+=x;
+     }
+         System.out.println("Sum: "+ sum);
+     }
+    
         
     }
 

@@ -9,15 +9,15 @@ package Video_101_to_130;
  *
  * @author shshe
  */
-public class Video102_VariableLengthArgumentTest {
+public class Video103_VariableLengthArgumentTest {
     public static void main(String[] args) {
         //intanctiation
-      Video102_VariableLengthArgument obj = new Video102_VariableLengthArgument();
+      Video103_VariableLengthArgument obj = new Video103_VariableLengthArgument();
      
       //for two variable initialization
       obj.add(10, 20);
       obj.add(10, 20,30);
-      
+      obj.add(10,20,30,40,60);
       
     }
  
