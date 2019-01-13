@@ -22,4 +22,10 @@ public class Video111InheritingPrivateMemberExtending extends Video111Inheriting
     void displayInfo2(){
         System.out.println("Qualification:" + qualification);
    }
+    void display(){
+        System.out.println(getName());
+        System.out.println(getAge());
+        System.out.println(getQualification());
+    
+    }
 }
