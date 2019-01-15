@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package JavaBreakContinue;
-
+import JavaArray.Array3dForLoop;
 /**
  *
  * @author User
@@ -22,5 +22,5 @@ public class JavaBreakContinue {
             i++;
         }
     }
- 
+ JavaArray obj  = new JavaArray();
 }

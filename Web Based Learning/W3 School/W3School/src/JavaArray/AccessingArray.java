@@ -27,6 +27,7 @@ public class AccessingArray {
         }
         //Using for each
         for(String i:cars){System.out.println(i);}
+        Array3dForLoop obj = new Array3dForLoop();
     }
   
 }
