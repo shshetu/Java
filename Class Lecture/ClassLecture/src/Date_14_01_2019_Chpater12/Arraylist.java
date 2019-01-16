@@ -3,16 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package JavaArray;
+package Date_14_01_2019_Chpater12;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
- * @author shshe
+ * @author User
  */
-public class MultidimensionalArrays {
+public class Arraylist {
     public static void main(String[] args) {
-        int[][] myNumbers = {{1,2,3,4},{5,6,7}};
-        int x = myNumbers[1][2];
-        System.out.println("X: "+ x);
+        List li = new ArrayList(); //This list is object type, it can contain any type of list
+      
+      
+        
     }
 }
