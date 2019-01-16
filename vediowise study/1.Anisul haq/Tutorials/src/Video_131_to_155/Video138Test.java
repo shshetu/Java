@@ -20,5 +20,8 @@ public class Video138Test {
         double b = 10.5;
         int a = (int)b;
         System.out.println("A: "+ a);
+        
+        int z = (int) (10*Math.random());
+        System.out.println("Z: "+ z);
     }
 }
