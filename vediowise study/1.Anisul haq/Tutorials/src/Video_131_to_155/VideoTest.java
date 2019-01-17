@@ -11,8 +11,8 @@ package Video_131_to_155;
  */
 public class VideoTest {
     public static void main(String[] args) {
-        Video145Person p1 = new Video145Person("Shetu",25);
-        Video145Person p2 = new Video145Person("Shanta",25);
+        Video144Person p1 = new Video144Person("Shetu",25);
+        Video144Person p2 = new Video144Person("Shanta",25);
         System.out.println(p1);
         System.out.println(p2);
     }
