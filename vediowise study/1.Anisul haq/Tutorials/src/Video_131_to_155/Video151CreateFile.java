@@ -13,29 +13,33 @@ import java.io.File;
  */
 public class Video151CreateFile {
     public static void main(String[] args) {
-        //How to create folder
-        File dir = new File("C:/Users/shshe/OneDrive/Desktop/Person"); //Create a folder in desktop
+       
+        //Initializing File class and making folder
+        File dir = new File("person"); //It is a folder name(will be created in project folder)
+        dir.mkdir(); //directory will be created
         
-    dir.mkdir(); //directory will be created
-    String dirLocation = dir.getAbsolutePath();
-        System.out.println("DirLocation: "+ dirLocation);
-        System.out.println("Directory name: "+ dir.getName()); ///getName() = It will provide the full name
-//        if(dir.delete()){
-//            System.out.println(dir.getName()+" has been deleted!");
-//        }
+        //Creating folder on desktop
+        File dir1 = new File("C:/Users/shshe/OneDrive/Desktop/Person"); //Creating folder in desktop
+        dir1.mkdir();
+        String  dir1Location = dir1.getAbsolutePath();
+        System.out.println("Directory Name; "+dir1.getName()+" \nDirectory location: "+dir1Location);
         
-        //How to create file
-        File file1 = new File(dirLocation+"/student.txt");
-        File file2 = new File(dirLocation+"/teacher.txt");
-        //try catch/////////////////////////
-        try {
+        ///Path of the folder and file
+        String path = "C:/Users/shshe/OneDrive/Desktop/Person/";
+        //Creating file with .txt extension
+        File file1 = new File(path+"Student.txt"); //Created files inside Person folder in desktop
+        File file2 = new File(path+"Teacher.txt"); //Created files inside Person folder in desktop
+        
+        //We must create file inside try catch block sincre there might be some errors
+        try{
         file1.createNewFile();
         file2.createNewFile();
             System.out.println("Files are created!");
         }catch(Exception e){System.out.println(e);}
-        ///File1 exists
-        if(file1.exists()){System.out.println("File1 exists!");}
-        else{System.out.println("File1 does not exits!");}
-        
+   ///Do files exist?
+   //file1.delete(); //We will always delete object 
+   if(file1.exists()){System.out.println("File1 exists");}else{System.out.println("File1 does not exist");}
+    
     }
+    
 }
