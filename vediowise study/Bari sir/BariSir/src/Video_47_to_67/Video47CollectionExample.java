@@ -27,14 +27,14 @@ public class Video47CollectionExample {
         l.add("schildt");
         l.add("mathew");
         l.add("schildt");
-        print(l);  //Invoking Customized method
+       // print(l);  //Invoking Customized method
     
         Set s = new HashSet();
         s.add("Set:rose");
         s.add("Set:schildt");
         s.add("mathew");
         s.add("schildt"); //Duplicate value we can insert but it will print only one schildt
-    print(s); //Invoking Customized Method
+   // print(s); //Invoking Customized Method
     }
     
     
