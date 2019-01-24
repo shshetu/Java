@@ -43,7 +43,7 @@ String s1 = "Hello", s2 = " World!";
         String x = "100";
         try{
         System.out.println(Integer.parseInt(x));
-        } catch(e){
+        } catch(Exception e){
             System.out.println("You can't");
         }
     }
