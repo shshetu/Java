@@ -37,6 +37,11 @@ public class TestTreeSet {
         //Use the methods in NavigableSet interface
         System.out.println(" lower(\"P\"): "+ treeSet.lower("P"));
         System.out.println(" higher(\"P\"): "+ treeSet.higher("P"));
+        System.out.println(" higher(\"P\"): "+ treeSet.higher("P"));
+        System.out.println(" higher(\"P\"): "+ treeSet.higher("P"));
+        System.out.println(" higher(\"P\"): "+ treeSet.higher("P"));
+        System.out.println(" higher(\"P\"): "+ treeSet.higher("P"));
+        System.out.println(" higher(\"P\"): "+ treeSet.higher("P"));
         
         
     }
