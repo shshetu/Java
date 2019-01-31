@@ -7,25 +7,22 @@ package EvidencePractice;
 
 import java.util.Scanner;
 
-/**
+/*
  *
  * @author User
  */
-public class SentinalValue {
+public class PalindromeNumbershort {
     public static void main(String[] args) {
-        int num1;
-        int sum = 0;
         Scanner input = new Scanner(System.in);
-        while(true){
         System.out.println("Enter your number: ");
-        num1 = input.nextInt();
-        if(num1 != -1){
-        sum += num1;
-        System.out.println("Sum: "+ sum);    
-        }else {
-            System.out.println("Your last sum: "+ sum);
-            break;
+        String s1 = input.next();
+    StringBuffer sb = new StringBuffer(s1);
+   String s2 = sb.reverse().toString();
+        if (s1.equals(s2)) {
+            System.out.println("Palindrome");
+        }else{
+            System.out.println("Not Palindrome");
         }
-        }
+    
     }
 }
