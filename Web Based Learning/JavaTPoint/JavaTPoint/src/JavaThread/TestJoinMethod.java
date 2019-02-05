@@ -10,11 +10,12 @@ package JavaThread;
  * @author User
  */
 class dsdssd extends Thread{  
+  @Override
   public void run(){  
    System.out.println("running...");  
   }  
  public static void main(String args[]){  
-  dsdssd t1=new dsdssd();  
+  dsdssd t1=new dsdssd();   
   dsdssd t2=new dsdssd();  
   System.out.println("Name of t1:"+t1.getName());  
   System.out.println("Name of t2:"+t2.getName());  
