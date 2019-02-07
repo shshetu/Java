@@ -35,7 +35,13 @@ public class JoinExp1 extends Thread{
         //we have to uss try catch for join()
         ///There 3 types of join method
         try {
+<<<<<<< HEAD
             t1.join();
+=======
+            ///The object i created should be added here.
+            t1.join(); //It waits a thread to die
+            //It is just like a relly race
+>>>>>>> 6ff29930d2050405653fa60123dfcedd430a7b9f
         } catch (Exception e) {
             System.out.println(e);
         }
