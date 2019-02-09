@@ -13,6 +13,11 @@ public class CurrentThreadExp extends Thread{
     //print currently executing thread
   //run mehtod is a must since we hava already inherited the Thread class
     public void run(){
+        try {
+            Thread.sleep(5000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         System.out.println(Thread.currentThread().getName()); //since currentThread() is static type so class name is added earlier
     }
     //creating the main method which is also a main thread

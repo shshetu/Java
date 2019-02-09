@@ -42,7 +42,7 @@ class TestThreadPool{
     public static void main(String[] args) {
     ExecutorService executor = Executors.newFixedThreadPool(5); //fixed thread pool boss
         for (int i = 0; i < 10; i++) {
-            Runnable worker = new ThreadPool(" "+i);
+            Runnable worker = new ThreadPool(" "+i); //creating runnable object from the interface
             executor.execute(worker); //calling execute method of executorService
             
         }
