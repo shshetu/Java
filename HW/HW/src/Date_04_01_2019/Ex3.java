@@ -5,9 +5,12 @@
  */
 package Date_04_01_2019;
 
+<<<<<<< HEAD
+=======
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+>>>>>>> 6ff29930d2050405653fa60123dfcedd430a7b9f
 /**
  *
  * @author shshe
@@ -15,6 +18,33 @@ import java.util.logging.Logger;
 public class Ex3 implements Runnable{
     @Override
     public void run(){
+<<<<<<< HEAD
+        System.out.println("Thread started: "+ Thread.currentThread().getName());
+        try {
+            Thread.sleep(3000);
+        } catch (Exception e) {
+        e.printStackTrace();
+        }
+        System.out.println("Thread ended::"+ Thread.currentThread().getName());
+    }
+}
+class ThreadTest{
+    public static void main(String[] args) {
+      Ex3 r = new Ex3();
+      Thread t1 = new Thread(r);
+      t1.setPriority(1);
+      t1.start();
+      
+      //
+      Thread t2 = new Thread(r);
+      t2.start();
+        System.out.println("t1 Priority: "+t1.getPriority());
+        System.out.println("t2 Priority: "+t2.getPriority());
+        System.out.println("t1 Name: "+t1.getName());
+        System.out.println("t2 Name: "+t1.getName());
+    }
+}
+=======
         System.out.println("Thread started:::"+ Thread.currentThread().getName());
         try {
             Thread.sleep(4000);
@@ -58,3 +88,4 @@ t3.join();
     }
 
 }
+>>>>>>> 6ff29930d2050405653fa60123dfcedd430a7b9f
