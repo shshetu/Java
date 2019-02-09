@@ -27,6 +27,12 @@ public class DaemonThread extends Thread{
         ///set Daemon
         t1.setDaemon(true); //must boolean value will be occupied
         t1.start();
+        try {
+            t1.join(); 
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+       
         t2.start();
         t3.start();
         

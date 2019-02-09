@@ -27,7 +27,7 @@ public class YieldExp extends Thread{
         //second for loop
         //current thread is the main thread
         for (int i = 0; i < 5; i++) {
-            t1.yield();
+            t2.yield();
             System.out.println(Thread.currentThread().getName()+" in control");
         }
     }
