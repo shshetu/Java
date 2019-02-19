@@ -6,18 +6,18 @@
 package Java_IO.Console;
 
 import java.io.Console;
-import java.io.IOException;
 
 /**
  *
- * @author shshe
+ * @author User
  */
-public class JavaConsoleEx1 {
+public class ReadPasswordTest {
     public static void main(String[] args) throws Exception{
         Console c = System.console();
-        System.out.println("Enter your name: ");
-        String n = c.readLine();
-        System.out.println("Welcome "+ n);
+        System.out.println("Enter Password: ");
+        char[] ch = c.readPassword();
+        String pass = String.valueOf(ch);
+        System.out.println("Password is: "+ pass);
+        
     }
-    
 }
