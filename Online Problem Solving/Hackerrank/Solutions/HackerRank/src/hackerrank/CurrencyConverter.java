@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package hackerrank;
+
+/**
+ *
+ * @author shshe
+ */
+public class CurrencyConverter {
+    
+
+class CountryInfo {
+
+    String language;
+    String country;
+    String name;
+
+    CountryInfo(String language, String country, String name) {
+        this.language = language;
+        this.country = country;
+        this.name = name;
+    }
+
+

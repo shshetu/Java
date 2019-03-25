@@ -14,26 +14,20 @@ import java.util.Scanner;
 public class Q5_Java_Loops_2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("a: "); 
-        int a = input.nextInt();
-        System.out.print("b: ");
-        int b = input.nextInt();
-        System.out.print("n: ");
-        int n = input.nextInt();
-        int[] array = new int[n];
-        int[] array1 = new int[n];
-        
-        array1[0] = 0;
-        array[0] = 0;
-        for (int i = 0; i < 3; i++) {
-            array1[i] = array[i]+(int)(Math.pow(2, i));
+        int t = input.nextInt();
+        for (int tc = 0; tc < t; tc++) {
+            int a = input.nextInt();
+            int b = input.nextInt();
+            int n = input.nextInt();
+            int sumPower2 = 0;
+            for (int i = 0; i < n; i++) {
+                sumPower2= sumPower2*2+1;
+                if(i !=0){System.out.print(" ");}
+                System.out.print(a+sumPower2*b);
+            }
+            System.out.println();
         }
-        
-        for (int i = 0; i < 3; i++) {
-            System.out.println(array1[i]);
-        }
-        
-   
+        input.close();
     }
  
 }
