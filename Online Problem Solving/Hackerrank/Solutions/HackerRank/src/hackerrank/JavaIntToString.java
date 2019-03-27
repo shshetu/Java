@@ -17,7 +17,7 @@ public class JavaIntToString {
        System.out.println("Enter your number: ");
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
-        String str = Integer.toString(num);
+        String str = String.valueOf(num);
         if(num == Integer.parseInt(str)){
             System.out.println("Good job!");
         }else{

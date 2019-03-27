@@ -6,21 +6,25 @@
 package hackerrank;
 
 import java.time.LocalDate;
+import java.time.Month;
 import java.util.Scanner;
 
 /**
  *
  * @author shshe
  */
-public class JavaDateAndTime {
-
-    public static void main(String[] args) {
+public class JavaDateAndTime1 {
+      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int month = sc.nextInt();
         int day = sc.nextInt();
         int year = sc.nextInt();
+        System.out.print(findDay(month, day, year));
+
+    }
+
+    public static String findDay(int month, int day, int year) {
         LocalDate date = LocalDate.of(year, month, day);
-        
-        System.out.println(date.getDayOfWeek());
+        return date.getDayOfWeek().toString();
     }
 }
