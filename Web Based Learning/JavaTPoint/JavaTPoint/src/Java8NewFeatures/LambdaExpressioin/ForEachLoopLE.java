@@ -12,17 +12,18 @@ import java.util.List;
  *
  * @author shshe
  */
-public class ForEachLoopLA {
+public class ForEachLoopLE {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
-        list.add("ankit");
-        list.add("mayank");
-        list.add("irfan");
-        list.add("jai");
-        //using for each loop
-        list.forEach(
-        (n) -> System.out.println(n)
-        );
+      List<String> list = new ArrayList<>();
+      list.add("Ankit");
+      list.add("Mayank");
+      list.add("Irfan");
+      list.add("Jai");
+      
+      ///for each loop
+      list.forEach(
+      (n) ->System.out.println(n)
+      );
         
     }
 }
