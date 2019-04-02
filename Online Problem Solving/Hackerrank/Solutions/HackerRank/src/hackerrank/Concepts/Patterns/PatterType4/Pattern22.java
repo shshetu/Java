@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hackerrank_ProblemSolving.StairCase;
+package hackerrank.Concepts.Patterns.PatterType4;
 
 import java.util.Scanner;
 
@@ -11,18 +11,11 @@ import java.util.Scanner;
  *
  * @author shshe
  */
-public class StairCase {
-
-    public static void stairCase(int n) {
-        for (int i = 0; i <n; i++) {
-            System.out.println(" ");
-        }
-    }
-
+public class Pattern22 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-          for (int i = 1; i <=n; i++) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for (int i = 1; i <=n; i++) {
             for (int j = 1; j <=n-i; j++) {
                 System.out.print(" ");
             }
